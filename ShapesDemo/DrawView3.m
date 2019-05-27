@@ -23,6 +23,8 @@
     CGContextAddLineToPoint(contextReference, 50, 250);
     CGContextAddLineToPoint(contextReference, 150, 150);
     
+    CGContextFillPath(contextReference);
+    
     CGContextStrokePath(contextReference);
 }
 

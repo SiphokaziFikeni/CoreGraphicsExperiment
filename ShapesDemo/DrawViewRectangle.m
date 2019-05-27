@@ -23,6 +23,9 @@
     
     CGContextStrokePath(contextReference);
     
+    CGContextSetFillColorWithColor(contextReference, [UIColor blueColor].CGColor);
+    CGContextFillRect(contextReference, rectangle);
+    
 //    CGContextSetStrokeColorWithColor(contextReference, [UIColor orangeColor].CGColor);
 //    CGContextMoveToPoint(contextReference, 50, 100);
 //    CGContextAddLineToPoint(contextReference, 250, 300);
